@@ -18,6 +18,6 @@ public class ExclusaoCozinhaMain {
         Cozinha cozinha1 = new Cozinha();
         cozinha1.setId(1L);
 
-        cozinhaRepository.deleteCozinha(cozinha1);
+        cozinhaRepository.deleteCozinha(cozinha1.getId());
     }
 }
